@@ -1,1 +1,10 @@
+name : rozetest
 
+on :
+  #트리거
+  pull_request:
+    branches:
+      - main # 'main' 브랜치로 PR이 열리거나 병합 시도될 때만 실행
+  workflow_dispatch:  # UI에서 수동 실행 가능
+
+jobs:
