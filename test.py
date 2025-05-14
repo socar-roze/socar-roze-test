@@ -15,7 +15,7 @@ def test_login(driver):
         time.sleep(1)
 
         login_page = LoginPage(driver)
-        login_page.login("roze", "dbswl1025!")
+        login_page.login("id", "pw")
         
         time.sleep(3)  # 로딩 시간 확보 (WebDriverWait 추천)
 
